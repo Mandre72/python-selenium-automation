@@ -1,9 +1,11 @@
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
 
 # init driver
-driver = webdriver.Chrome()
+service = Service(executable_path='/Users/matthewandre/Downloads/Automation/python-selenium-automation/chromedriver')
+driver = webdriver.Chrome(service=service)
 driver.maximize_window()
 
 # open the url
