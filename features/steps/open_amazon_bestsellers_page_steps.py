@@ -1,5 +1,12 @@
-from selenium.webdriver.common.by import By
 from behave import given, when, then
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+
+# init driver
+service = Service(executable_path='/Users/matthewandre/Downloads/Automation/python-selenium-automation/chromedriver')
+driver = webdriver.Chrome(service=service)
+driver.maximize_window()
 
 
 @when('Click on Best Sellers')
