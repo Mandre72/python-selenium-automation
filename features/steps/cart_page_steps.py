@@ -8,7 +8,6 @@ PRODUCT_NAME = (By.CSS_SELECTOR, "sc-active-cart li")
 
 @when('Click go to cart button')
 def open_cart_page (context):
-    # context.driver.get('https://www.amazon.com/go/cart/view.html?ref_=nav_cart')
     context.driver.find_element(By.CSS_SELECTOR, '#sw-gtc span.a-button-inner').click()
 
 
