@@ -3,11 +3,11 @@ from behave import given, when, then
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 
-service = Service(executable_path='/Users/matthewandre/Downloads/Automation/python-selenium-automation/chromedriver')
-driver = webdriver.Chrome(service=service)
-driver.maximize_window()
-
-driver.get('https://www.amazon.com/')
+# service = Service(executable_path='/Users/matthewandre/Downloads/Automation/python-selenium-automation/chromedriver')
+# driver = webdriver.Chrome(service=service)
+# driver.maximize_window()
+#
+# driver.get('https://www.amazon.com/')
 
 
 @when('User Click on the cart icon')

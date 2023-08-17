@@ -1,4 +1,3 @@
-# Created by matthewandre at 3/4/23
 Feature: Test for product
 
   Scenario: User can select colors

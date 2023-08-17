@@ -8,5 +8,5 @@ Feature: Test Scenario to add a product you want into the cart and verify it's t
     When Click on search button
     And Click on the first product
     And Click on Add to cart button
-    And Open cart page
+    And Click go to cart button
     Then Verify cart has product

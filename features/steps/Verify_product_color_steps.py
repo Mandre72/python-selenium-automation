@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 from behave import when, given, then
-from time import sleep
 
 
 COLOR_OPTIONS = (By.CSS_SELECTOR, "#variation_color_name li")
