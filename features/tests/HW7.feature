@@ -1,7 +1,7 @@
-Feature: Test Scenario for Signin Page
+#Feature: Test Scenario to verify 'Your Shopping Cart is empty' text is present
 
 
-  Scenario: Logged out user sees Sign in page when clicking Orders
-   Given Open Amazon page
-   #When Click Amazon Orders link
-   #Then Verify Sign In page is opened
+  #Given Open Amazon page
+  #When Click on cart icon
+  #Then Verify 'Your Shopping Cart is empty.' text present
+
