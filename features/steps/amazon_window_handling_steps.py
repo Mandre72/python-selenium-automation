@@ -1,6 +1,5 @@
 from behave import when, given, then
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
 
 
 DOG_IMG = (By.CSS_SELECTOR, 'img#d')

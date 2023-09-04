@@ -1,4 +1,3 @@
-# Created by matthewandre at 3/6/23
 Feature: Test user can open amazon applications from Terms of Conditions
 
 
