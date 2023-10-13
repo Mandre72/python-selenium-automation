@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from behave import given, when, then
+from time import sleep
 
 
 # Define Page Objects
@@ -26,10 +27,12 @@ class SignInPage:
 
 
 @given('Open Amazon page')
-def open_amazon(context):
-    #context.driver.get('https://www.amazon.com/')
-    amazon_home_page = AmazonHomePage(context)
-    amazon_home_page.open()
+def open_amazon(context,):
+    context.driver.get('https://www.amazon.com/')
+    sleep(2)
+    context.driver.refresh()
+    #amazon_home_page = AmazonHomePage(context)
+    #amazon_home_page.open()
 
 
 @when('User Click on Returns and Orders icon')
